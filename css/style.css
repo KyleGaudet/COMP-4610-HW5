@@ -1,0 +1,156 @@
+/*
+File: style.css
+GUI Assignment: HW5
+Created on: 12/15/2022
+Description: Contains styling for scrabble game 
+Kyle Gaudet, UMass Lowell Computer Science, kyle_gaudet@student.uml.edu
+Copyright (c) 2022 by Kyle Gaudet. All rights reserved.
+Updated by KG on 12/18/2022
+*/
+
+/* general background styling */
+body {
+    /*background-color: slategrey;*/
+    background-attachment: fixed;
+    background-image: linear-gradient(180deg, dimgrey, lightgrey);
+    color: bisque;
+}
+
+/* styling for heading */
+h1 {
+    text-align: center;
+    background-color: navy;
+    width:70vw;
+    margin:auto;
+    margin-bottom: 7vh;
+    padding:1%;
+    border-radius: 10px;
+}
+
+/* styling for different board squares */
+.boardSquare {
+    background-image: url(../images/regSquare.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:4vmax;
+    width:4vmax;
+    margin-left: 0px;
+    margin-right:-8px;
+    padding-left: 0px;
+    padding-right:0px;
+    border:5px;
+    border-color:black;
+    border-style: solid;
+    float:left;
+}
+
+.wordMultBoardSquare {
+    background-image: url(../images/wordMult.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:4vmax;
+    width:4vmax;
+    margin-left: 0px;
+    margin-right:-8px;
+    padding-left: 0px;
+    padding-right:0px;
+    border:5px;
+    border-color:black;
+    border-style: solid;
+    float:left;
+}
+
+.letterMultBoardSquare {
+    background-image: url(../images/letterMult.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:4vmax;
+    width:4vmax;
+    margin-left: 0px;
+    margin-right:-8px;
+    padding-left: 0px;
+    padding-right:0px;
+    border:5px;
+    border-color:black;
+    border-style: solid;
+    float:left;
+}
+
+/* styling for div that houses the board */
+#boarddiv {
+    width: 70vw;
+    height:5vmax;
+    padding-left:0px;
+    padding-right:0px;
+    align-content: center;
+    text-align:center;
+    margin-left: 17vw;
+    margin-right:15vw;
+}
+
+/* styling for div that houses the rack */
+#rackdiv {
+    background-image: url(../images/holder.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width:33vmax;
+    height:10vmax;
+    margin:auto;
+    margin-top:5vh;
+    padding-top:3vmax;
+    padding-left:4vmax;
+}
+
+/* styling for the tile rack spots/divs */
+.tilediv {
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:4vmax;
+    width:4vmax;
+    display:inline-block;
+    margin: 0 auto;
+    border:2px;
+    border-color: burlywood;
+    border-style:solid;
+}
+
+/* styling for tile images */
+.tile {
+    height:4vmax;
+    width:4vmax;
+}
+
+/* styling for buttons */
+#buttondiv {
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    width:99vw;
+    margin-top:5vh;
+}
+
+button {
+    font-size: larger;
+    margin-right:2vw;
+    background-color: navy;
+    color: bisque;
+    border-radius: 10px;
+}
+
+/* styling for text above game board */
+#infotext {
+    white-space: pre;
+    text-align: center;
+    display:block;
+    font-size: x-large;
+    font-weight:bolder;
+    border-bottom: 5px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: navy;
+    border-style: solid;
+    width:fit-content;
+    margin:auto;
+    margin-bottom: 7vh;
+}

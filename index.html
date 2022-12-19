@@ -1,0 +1,75 @@
+<!--
+File: index.html
+GUI Assignment: HW5
+Created on: 12/15/2022
+Description: Contains html for scrabble game  
+Kyle Gaudet, UMass Lowell Computer Science, kyle_gaudet@student.uml.edu
+Copyright (c) 2022 by Kyle Gaudet. All rights reserved.
+Updated by KG on 12/18/2022
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Scrabble Game</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link stylesheets for jquery ui as well as general website styling -->
+  <link rel="stylesheet" href="css/jquery-ui.css" />
+  <link rel="stylesheet" href="css/jquery-ui.theme.css" />
+  <link rel="stylesheet" href="css/jquery-ui.structure.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <h1> ------ Scrabble ------</h1>
+    <div id="content">
+        <!-- div to contain general game info as user plays -->
+        <div id="infodiv">
+            <text id ="infotext"></text>
+        </div>
+
+        <!-- divs to contain the squares of the board -->
+        <div id="boarddiv">
+            <div id="s0" class ="boardSquare"></div>
+            <div id="s1"  class ="boardSquare"></div>
+            <div id="s2"  class ="wordMultBoardSquare"></div>
+            <div id="s3"  class ="boardSquare"></div>
+            <div id="s4"  class ="boardSquare"></div>
+            <div id="s5"  class ="boardSquare"></div>
+            <div id="s6"  class ="letterMultBoardSquare"></div>
+            <div id="s7"  class ="boardSquare"></div>
+            <div id="s8"  class ="boardSquare"></div>
+            <div id="s9"  class ="letterMultBoardSquare"></div>
+            <div id="s10"  class ="boardSquare"></div>
+            <div id="s11"  class ="boardSquare"></div>
+            <div id="s12"  class ="boardSquare"></div>
+            <div id="s13"  class ="wordMultBoardSquare"></div>
+            <div id="s14"  class ="boardSquare"></div>
+            <div id="s15"  class ="boardSquare"></div>
+        </div>
+
+        <!-- div to hold buttons for user inputs -->
+        <div id="buttondiv">
+            <button type="button" id="submit" >Submit Word</button>
+            <button type="button" id="reset" >Restart</button>
+        </div>
+
+        <!-- div to hold users tiles -->
+        <div id="rackdiv">
+            <div id ="r0" class ="tilediv"></div>
+            <div id ="r1" class ="tilediv"></div>
+            <div id ="r2" class ="tilediv"></div>
+            <div id ="r3" class ="tilediv"></div>
+            <div id ="r4" class ="tilediv"></div>
+            <div id ="r5" class ="tilediv"></div>
+            <div id ="r6" class ="tilediv"></div>
+        </div>
+
+    </div>
+  <!-- javascript files for latest version of jquery, jquery ui -->
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+
+  <!-- javascript file for scrabble code -->
+  <script src="js/scrabble.js"></script>
+</body>
+</html>

@@ -5,11 +5,11 @@ Date: 12/18/2022
 
 Github Repository URL:
 
-
+https://github.com/KyleGaudet/COMP-4610-HW5
 
 Github Pages URL:
 
-
+https://kylegaudet.github.io/COMP-4610-HW5/
 
 Write-Up:
 

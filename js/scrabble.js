@@ -200,7 +200,13 @@ function refresh() {
 
     // get all letters in board (in order)
     $('#boarddiv').children().children('.tile').each(function () {
-        tempWord += $(this).attr('id');
+        // change added so word display works on github pages
+        if($(this).attr('id') != '1') {
+            tempWord += $(this).attr('id');
+        }
+        else {
+            tempWord += '_';
+        }
     });
 
     // create string to set text to

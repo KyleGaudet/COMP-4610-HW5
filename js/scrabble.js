@@ -49,10 +49,10 @@ tiles["W"] = { "value" : 4,  "dist" : 2,  "count" : 2  } ;
 tiles["X"] = { "value" : 8,  "dist" : 1,  "count" : 1  } ;
 tiles["Y"] = { "value" : 4,  "dist" : 2,  "count" : 2  } ;
 tiles["Z"] = { "value" : 10, "dist" : 1,  "count" : 1  } ;
-tiles["_"] = { "value" : 0,  "dist" : 2,  "count" : 2  } ;
+tiles["1"] = { "value" : 0,  "dist" : 2,  "count" : 2  } ;
 
 // letter array for tile generation
-var letters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','_'];
+var letters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','1'];
 
 // arrays for board and rack to track if they are filled with a tile 
 // in a given spot/square
